@@ -3,6 +3,10 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
+ letters = string.split("")
+ letters.each_with_index do |letter, index|
+   return 
+end
 
 end
 
@@ -16,7 +20,7 @@ puts "Your method returned:"
 puts result
 puts
 
-if result == "edcba"
+if result == "edcba" 
   puts "PASS!"
 else
   puts "F"
