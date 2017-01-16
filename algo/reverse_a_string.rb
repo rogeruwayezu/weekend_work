@@ -3,10 +3,11 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
- letters = string.split("")
- letters.each_with_index do |letter, index|
-   return 
-end
+  letters = string.split(" ")
+  string_reversed = []
+  letters.each do |letter|
+     return string_reversed << letters 
+  end
 
 end
 

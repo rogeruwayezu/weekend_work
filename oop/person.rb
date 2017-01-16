@@ -1,17 +1,13 @@
 # Create a person class with readable first_name and last_name attributes 
 # and a method to calculate its full_name.
 class Person
+  attr_reader :first_name, :last_name
   def initialize(first_name, last_name)
     @first_name = first_name
     @last_name = last_name
   end
  
-  def first_name
-    return @first_name
-  end
-  def last_name
-    return @last_name
-  end
+
   def full_name
     return first_name + " " + last_name
   end
